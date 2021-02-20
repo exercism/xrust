@@ -134,7 +134,9 @@
         "slug": "hello-world",
         "name": "Hello World",
         "uuid": "13ec1ebe-d71b-436f-ab12-25305e814171",
-        "practices": [],
+        "practices": [
+          "functions"
+        ],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -146,8 +148,15 @@
         "slug": "reverse-string",
         "name": "Reverse String",
         "uuid": "ecf8d1e3-9400-4d1a-8326-2e2820bce024",
-        "practices": [],
-        "prerequisites": [],
+        "practices": [
+          "char",
+          "from-into-iterator",
+          "string-use",
+          "unicode"
+        ],
+        "prerequisites": [
+          "string-use"
+        ],
         "difficulty": 1,
         "topics": [
           "iterators",
@@ -159,7 +168,9 @@
         "slug": "gigasecond",
         "name": "Gigasecond",
         "uuid": "f880b1ef-8f66-41f3-bb89-f39a4ed592a2",
-        "practices": [],
+        "practices": [
+          "external-crates"
+        ],
         "prerequisites": [],
         "difficulty": 1,
         "topics": [
@@ -170,8 +181,15 @@
         "slug": "clock",
         "name": "Clock",
         "uuid": "543a3ca2-fb9b-4f20-a873-ff23595d41df",
-        "practices": [],
-        "prerequisites": [],
+        "practices": [
+          "derive",
+          "structs",
+          "traits"
+        ],
+        "prerequisites": [
+          "structs",
+          "traits"
+        ],
         "difficulty": 4,
         "topics": [
           "derive",
@@ -183,8 +201,16 @@
         "slug": "anagram",
         "name": "Anagram",
         "uuid": "f3172997-91f5-4941-a76e-91c4b8eed401",
-        "practices": [],
-        "prerequisites": [],
+        "practices": [
+          "hashset",
+          "lifetimes",
+          "loops",
+          "string-use"
+        ],
+        "prerequisites": [
+          "hashset",
+          "loops"
+        ],
         "difficulty": 4,
         "topics": [
           "iterators",
@@ -199,8 +225,15 @@
         "slug": "space-age",
         "name": "Space Age",
         "uuid": "fa94645d-14e1-422d-a832-d24efbb493d8",
-        "practices": [],
-        "prerequisites": [],
+        "practices": [
+          "designing-custom-traits",
+          "implementing-traits",
+          "macros-declarative",
+          "traits"
+        ],
+        "prerequisites": [
+          "traits"
+        ],
         "difficulty": 7,
         "topics": [
           "from_trait",
@@ -1400,418 +1433,418 @@
   },
   "concepts": [
     {
-        "uuid": "f7be1969-380e-4348-ac79-9b2834a526fd",
-        "slug": "&str",
-        "name": "&str",
-        "blurb": ""
+      "uuid": "f7be1969-380e-4348-ac79-9b2834a526fd",
+      "slug": "&str",
+      "name": "&str",
+      "blurb": ""
     },
     {
-        "uuid": "53804676-e4f0-4faa-a8b8-68ff8314ccbe",
-        "slug": "anonymous-lifetime",
-        "name": "Anonymous lifetime",
-        "blurb": ""
+      "uuid": "53804676-e4f0-4faa-a8b8-68ff8314ccbe",
+      "slug": "anonymous-lifetime",
+      "name": "Anonymous lifetime",
+      "blurb": ""
     },
     {
-        "uuid": "1775c091-1edc-4a30-8582-0e014721887f",
-        "slug": "arc",
-        "name": "Arc",
-        "blurb": ""
+      "uuid": "1775c091-1edc-4a30-8582-0e014721887f",
+      "slug": "arc",
+      "name": "Arc",
+      "blurb": ""
     },
     {
-        "uuid": "17f9277e-5299-4e92-98f3-7d3534fbdd44",
-        "slug": "async",
-        "name": "Async",
-        "blurb": ""
+      "uuid": "17f9277e-5299-4e92-98f3-7d3534fbdd44",
+      "slug": "async",
+      "name": "Async",
+      "blurb": ""
     },
     {
-        "uuid": "d29b735e-26fb-4eea-9f2d-0e738d2571ca",
-        "slug": "booleans",
-        "name": "Booleans",
-        "blurb": ""
+      "uuid": "d29b735e-26fb-4eea-9f2d-0e738d2571ca",
+      "slug": "booleans",
+      "name": "Booleans",
+      "blurb": ""
     },
     {
-        "uuid": "289274e9-8b87-4373-9090-21e00c8b6d67",
-        "slug": "borrow-trait",
-        "name": "Borrow trait",
-        "blurb": ""
+      "uuid": "289274e9-8b87-4373-9090-21e00c8b6d67",
+      "slug": "borrow-trait",
+      "name": "Borrow trait",
+      "blurb": ""
     },
     {
-        "uuid": "908173dc-3e6a-4f15-be9f-f3aa4b880f24",
-        "slug": "box",
-        "name": "Box",
-        "blurb": ""
+      "uuid": "908173dc-3e6a-4f15-be9f-f3aa4b880f24",
+      "slug": "box",
+      "name": "Box",
+      "blurb": ""
     },
     {
-        "uuid": "154344c0-2fc0-4607-9834-9a4e5d4eb66a",
-        "slug": "btreemap",
-        "name": "BTreeMap",
-        "blurb": ""
+      "uuid": "154344c0-2fc0-4607-9834-9a4e5d4eb66a",
+      "slug": "btreemap",
+      "name": "BTreeMap",
+      "blurb": ""
     },
     {
-        "uuid": "19f805e5-d3b2-4050-8b14-5efadcb94f65",
-        "slug": "casting",
-        "name": "Casting",
-        "blurb": ""
+      "uuid": "19f805e5-d3b2-4050-8b14-5efadcb94f65",
+      "slug": "casting",
+      "name": "Casting",
+      "blurb": ""
     },
     {
-        "uuid": "61922c2a-63cc-4fab-a924-5b0dbac7d452",
-        "slug": "cell-and-refcell",
-        "name": "Cell and Refcell",
-        "blurb": ""
+      "uuid": "61922c2a-63cc-4fab-a924-5b0dbac7d452",
+      "slug": "cell-and-refcell",
+      "name": "Cell and Refcell",
+      "blurb": ""
     },
     {
-        "uuid": "7a42f420-2352-4912-a54c-fa5453190f27",
-        "slug": "channels",
-        "name": "Channels",
-        "blurb": ""
+      "uuid": "7a42f420-2352-4912-a54c-fa5453190f27",
+      "slug": "channels",
+      "name": "Channels",
+      "blurb": ""
     },
     {
-        "uuid": "5c61a070-0585-4e23-8620-46c7c73f2fe1",
-        "slug": "char",
-        "name": "Char",
-        "blurb": ""
+      "uuid": "5c61a070-0585-4e23-8620-46c7c73f2fe1",
+      "slug": "char",
+      "name": "Char",
+      "blurb": ""
     },
     {
-        "uuid": "1cbd4801-6c66-4c56-902d-b9c5a0093915",
-        "slug": "collect",
-        "name": "Collect",
-        "blurb": ""
+      "uuid": "1cbd4801-6c66-4c56-902d-b9c5a0093915",
+      "slug": "collect",
+      "name": "Collect",
+      "blurb": ""
     },
     {
-        "uuid": "4e5ca742-379c-49da-9f57-54a740f3e632",
-        "slug": "conditionals",
-        "name": "Conditionals",
-        "blurb": ""
+      "uuid": "4e5ca742-379c-49da-9f57-54a740f3e632",
+      "slug": "conditionals",
+      "name": "Conditionals",
+      "blurb": ""
     },
     {
-        "uuid": "44644a80-8b1f-4a52-a999-97a3f5f9db6b",
-        "slug": "const-and-static",
-        "name": "Const and Static",
-        "blurb": ""
+      "uuid": "44644a80-8b1f-4a52-a999-97a3f5f9db6b",
+      "slug": "const-and-static",
+      "name": "Const and Static",
+      "blurb": ""
     },
     {
-        "uuid": "992f5e5d-72a8-4f52-95e1-3bbe6c4f4689",
-        "slug": "count-and-sum",
-        "name": "Count and Sum",
-        "blurb": ""
+      "uuid": "992f5e5d-72a8-4f52-95e1-3bbe6c4f4689",
+      "slug": "count-and-sum",
+      "name": "Count and Sum",
+      "blurb": ""
     },
     {
-        "uuid": "f060e364-b6ea-4699-bb7a-e64807a8f0dd",
-        "slug": "deref-coercion",
-        "name": "Deref coercion",
-        "blurb": ""
+      "uuid": "f060e364-b6ea-4699-bb7a-e64807a8f0dd",
+      "slug": "deref-coercion",
+      "name": "Deref coercion",
+      "blurb": ""
     },
     {
-        "uuid": "9cdc0b7e-520b-4d08-854b-ca7063c2dc97",
-        "slug": "derive",
-        "name": "Derive",
-        "blurb": ""
+      "uuid": "9cdc0b7e-520b-4d08-854b-ca7063c2dc97",
+      "slug": "derive",
+      "name": "Derive",
+      "blurb": ""
     },
     {
-        "uuid": "053cdc50-ca0b-4267-97f7-2d5ca4436df0",
-        "slug": "designing-custom-traits",
-        "name": "Designing custom traits",
-        "blurb": ""
+      "uuid": "053cdc50-ca0b-4267-97f7-2d5ca4436df0",
+      "slug": "designing-custom-traits",
+      "name": "Designing custom traits",
+      "blurb": ""
     },
     {
-        "uuid": "c554fa18-7aba-4e96-b4bb-fc9b547252d2",
-        "slug": "enums",
-        "name": "Enums",
-        "blurb": ""
+      "uuid": "c554fa18-7aba-4e96-b4bb-fc9b547252d2",
+      "slug": "enums",
+      "name": "Enums",
+      "blurb": ""
     },
     {
-        "uuid": "56454976-5e1b-4560-bff4-51f996534a08",
-        "slug": "explicit-return",
-        "name": "Explicit return",
-        "blurb": ""
+      "uuid": "56454976-5e1b-4560-bff4-51f996534a08",
+      "slug": "explicit-return",
+      "name": "Explicit return",
+      "blurb": ""
     },
     {
-        "uuid": "6ba4b428-3d56-4798-ada1-79675bd5be1d",
-        "slug": "external-crates",
-        "name": "External crates",
-        "blurb": ""
+      "uuid": "6ba4b428-3d56-4798-ada1-79675bd5be1d",
+      "slug": "external-crates",
+      "name": "External crates",
+      "blurb": ""
     },
     {
-        "uuid": "e54494dc-15af-4904-b554-c583f511dca3",
-        "slug": "external-traits-as-bounds",
-        "name": "External traits as bounds",
-        "blurb": ""
+      "uuid": "e54494dc-15af-4904-b554-c583f511dca3",
+      "slug": "external-traits-as-bounds",
+      "name": "External traits as bounds",
+      "blurb": ""
     },
     {
-        "uuid": "3fe73200-fe19-4492-98ec-40bc17760cdd",
-        "slug": "fold",
-        "name": "Fold",
-        "blurb": ""
+      "uuid": "3fe73200-fe19-4492-98ec-40bc17760cdd",
+      "slug": "fold",
+      "name": "Fold",
+      "blurb": ""
     },
     {
-        "uuid": "445f2f63-e5fb-4500-93b3-19afac753bfa",
-        "slug": "format-macro",
-        "name": "Format macro",
-        "blurb": ""
+      "uuid": "445f2f63-e5fb-4500-93b3-19afac753bfa",
+      "slug": "format-macro",
+      "name": "Format macro",
+      "blurb": ""
     },
     {
-        "uuid": "44d3d261-443d-4bbc-834e-5d35aca0cab8",
-        "slug": "from-into-iterator",
-        "name": "FromIterator, IntoIterator, and .collect()",
-        "blurb": ""
+      "uuid": "44d3d261-443d-4bbc-834e-5d35aca0cab8",
+      "slug": "from-into-iterator",
+      "name": "FromIterator, IntoIterator, and .collect()",
+      "blurb": ""
     },
     {
-        "uuid": "cd77f4c9-3c07-4882-b828-ac99748415e5",
-        "slug": "functions",
-        "name": "Functions",
-        "blurb": ""
+      "uuid": "cd77f4c9-3c07-4882-b828-ac99748415e5",
+      "slug": "functions",
+      "name": "Functions",
+      "blurb": ""
     },
     {
-        "uuid": "bd7d1ccb-feac-482d-86bd-3d611172bb3f",
-        "slug": "closures",
-        "name": "Closures",
-        "blurb": ""
+      "uuid": "bd7d1ccb-feac-482d-86bd-3d611172bb3f",
+      "slug": "closures",
+      "name": "Closures",
+      "blurb": ""
     },
     {
-        "uuid": "99e5f5e4-c202-4ad2-917f-068ff56e1c03",
-        "slug": "higher-order-functions",
-        "name": "Higher order functions",
-        "blurb": ""
+      "uuid": "99e5f5e4-c202-4ad2-917f-068ff56e1c03",
+      "slug": "higher-order-functions",
+      "name": "Higher order functions",
+      "blurb": ""
     },
     {
-        "uuid": "56648cbf-14ca-44e6-8848-ec1334478608",
-        "slug": "futures",
-        "name": "Futures",
-        "blurb": ""
+      "uuid": "56648cbf-14ca-44e6-8848-ec1334478608",
+      "slug": "futures",
+      "name": "Futures",
+      "blurb": ""
     },
     {
-        "uuid": "34ccdfa9-2a08-43a3-9d36-21767fe11918",
-        "slug": "lifetimes",
-        "name": "Lifetimes",
-        "blurb": ""
+      "uuid": "34ccdfa9-2a08-43a3-9d36-21767fe11918",
+      "slug": "lifetimes",
+      "name": "Lifetimes",
+      "blurb": ""
     },
     {
-        "uuid": "fc7e0724-11de-4471-95d1-4cd76324bebe",
-        "slug": "generics",
-        "name": "Generics",
-        "blurb": ""
+      "uuid": "fc7e0724-11de-4471-95d1-4cd76324bebe",
+      "slug": "generics",
+      "name": "Generics",
+      "blurb": ""
     },
     {
-        "uuid": "aab1a247-8c64-48fd-bf76-3384957aadd6",
-        "slug": "hashmap",
-        "name": "HashMap",
-        "blurb": ""
+      "uuid": "aab1a247-8c64-48fd-bf76-3384957aadd6",
+      "slug": "hashmap",
+      "name": "HashMap",
+      "blurb": ""
     },
     {
-        "uuid": "8eaa0431-2743-4ff0-a7ba-2b2ba496fb92",
-        "slug": "hashset",
-        "name": "HashSet",
-        "blurb": ""
+      "uuid": "8eaa0431-2743-4ff0-a7ba-2b2ba496fb92",
+      "slug": "hashset",
+      "name": "HashSet",
+      "blurb": ""
     },
     {
-        "uuid": "dc958fc2-e1f6-4ff9-8f9c-9bde565d8ec9",
-        "slug": "if-while-let",
-        "name": "`if let` and `while let`",
-        "blurb": ""
+      "uuid": "dc958fc2-e1f6-4ff9-8f9c-9bde565d8ec9",
+      "slug": "if-while-let",
+      "name": "`if let` and `while let`",
+      "blurb": ""
     },
     {
-        "uuid": "f9db0ad6-b204-4e9f-a5f2-2aa407782ff9",
-        "slug": "impl-blocks",
-        "name": "Impl blocks",
-        "blurb": ""
+      "uuid": "f9db0ad6-b204-4e9f-a5f2-2aa407782ff9",
+      "slug": "impl-blocks",
+      "name": "Impl blocks",
+      "blurb": ""
     },
     {
-        "uuid": "1554bfb1-0a82-40ad-96f3-78ca7bb8117c",
-        "slug": "implementing-traits",
-        "name": "Implementing traits",
-        "blurb": ""
+      "uuid": "1554bfb1-0a82-40ad-96f3-78ca7bb8117c",
+      "slug": "implementing-traits",
+      "name": "Implementing traits",
+      "blurb": ""
     },
     {
-        "uuid": "41e5ecf1-56cf-4f14-83a8-a6b041b133b3",
-        "slug": "iterator-usage",
-        "name": "Iterator usage",
-        "blurb": ""
+      "uuid": "41e5ecf1-56cf-4f14-83a8-a6b041b133b3",
+      "slug": "iterator-usage",
+      "name": "Iterator usage",
+      "blurb": ""
     },
     {
-        "uuid": "b46be939-6e57-4686-a0e2-01dcd76fddb9",
-        "slug": "lazy-evaluation",
-        "name": "Lazy evaluation",
-        "blurb": ""
+      "uuid": "b46be939-6e57-4686-a0e2-01dcd76fddb9",
+      "slug": "lazy-evaluation",
+      "name": "Lazy evaluation",
+      "blurb": ""
     },
     {
-        "uuid": "4486d871-5fa2-47af-892b-da910802482e",
-        "slug": "logical-operators",
-        "name": "Logical operators",
-        "blurb": ""
+      "uuid": "4486d871-5fa2-47af-892b-da910802482e",
+      "slug": "logical-operators",
+      "name": "Logical operators",
+      "blurb": ""
     },
     {
-        "uuid": "952406cb-dcb1-47df-8129-b996b32a6cc4",
-        "slug": "loops",
-        "name": "Loops",
-        "blurb": ""
+      "uuid": "952406cb-dcb1-47df-8129-b996b32a6cc4",
+      "slug": "loops",
+      "name": "Loops",
+      "blurb": ""
     },
     {
-        "uuid": "f16a9f91-7fbd-406a-9642-5cb5f9f52590",
-        "slug": "macros-declarative",
-        "name": "Declarative Macros",
-        "blurb": ""
+      "uuid": "f16a9f91-7fbd-406a-9642-5cb5f9f52590",
+      "slug": "macros-declarative",
+      "name": "Declarative Macros",
+      "blurb": ""
     },
     {
-        "uuid": "9e7b6f00-c30d-4a44-934f-e762203ebc2f",
-        "slug": "macros-procedural",
-        "name": "Procedural Macros",
-        "blurb": ""
+      "uuid": "9e7b6f00-c30d-4a44-934f-e762203ebc2f",
+      "slug": "macros-procedural",
+      "name": "Procedural Macros",
+      "blurb": ""
     },
     {
-        "uuid": "b1f7f3d8-ee41-47e3-a94f-75080f5f649f",
-        "slug": "map-and-filter",
-        "name": "Map and filter",
-        "blurb": ""
+      "uuid": "b1f7f3d8-ee41-47e3-a94f-75080f5f649f",
+      "slug": "map-and-filter",
+      "name": "Map and filter",
+      "blurb": ""
     },
     {
-        "uuid": "29560443-55f8-4af4-9186-6bf11fcb066d",
-        "slug": "match-basics",
-        "name": "Match basics",
-        "blurb": ""
+      "uuid": "29560443-55f8-4af4-9186-6bf11fcb066d",
+      "slug": "match-basics",
+      "name": "Match basics",
+      "blurb": ""
     },
     {
-        "uuid": "63bcae1b-11f8-4aea-8981-76c913e79ab2",
-        "slug": "match-destructuring",
-        "name": "Match destructuring",
-        "blurb": ""
+      "uuid": "63bcae1b-11f8-4aea-8981-76c913e79ab2",
+      "slug": "match-destructuring",
+      "name": "Match destructuring",
+      "blurb": ""
     },
     {
-        "uuid": "0649f216-c720-4653-a33e-64b5513b9780",
-        "slug": "methods",
-        "name": "Methods",
-        "blurb": ""
+      "uuid": "0649f216-c720-4653-a33e-64b5513b9780",
+      "slug": "methods",
+      "name": "Methods",
+      "blurb": ""
     },
     {
-        "uuid": "c61e971c-15b0-4b80-a724-35a841b68720",
-        "slug": "move-semantics",
-        "name": "Move semantics",
-        "blurb": ""
+      "uuid": "c61e971c-15b0-4b80-a724-35a841b68720",
+      "slug": "move-semantics",
+      "name": "Move semantics",
+      "blurb": ""
     },
     {
-        "uuid": "38785236-be81-44ef-8625-c4054d5d3641",
-        "slug": "mutability",
-        "name": "Mutability",
-        "blurb": ""
+      "uuid": "38785236-be81-44ef-8625-c4054d5d3641",
+      "slug": "mutability",
+      "name": "Mutability",
+      "blurb": ""
     },
     {
-        "uuid": "fc6fe604-01b7-476c-86dc-125b441b1fb5",
-        "slug": "mutex",
-        "name": "Mutex",
-        "blurb": ""
+      "uuid": "fc6fe604-01b7-476c-86dc-125b441b1fb5",
+      "slug": "mutex",
+      "name": "Mutex",
+      "blurb": ""
     },
     {
-        "uuid": "ab78652d-bfc4-4741-b68c-5515a2e1f511",
-        "slug": "newtype-pattern",
-        "name": "Newtype pattern",
-        "blurb": ""
+      "uuid": "ab78652d-bfc4-4741-b68c-5515a2e1f511",
+      "slug": "newtype-pattern",
+      "name": "Newtype pattern",
+      "blurb": ""
     },
     {
-        "uuid": "8fe3f7c1-15d2-434f-8cd3-16b6f410baa5",
-        "slug": "numeric-traits",
-        "name": "Numeric traits",
-        "blurb": ""
+      "uuid": "8fe3f7c1-15d2-434f-8cd3-16b6f410baa5",
+      "slug": "numeric-traits",
+      "name": "Numeric traits",
+      "blurb": ""
     },
     {
-        "uuid": "8e7fd01b-b4d6-4386-8259-7817374ce620",
-        "slug": "overflow-and-underflow",
-        "name": "Overflow and underflow",
-        "blurb": ""
+      "uuid": "8e7fd01b-b4d6-4386-8259-7817374ce620",
+      "slug": "overflow-and-underflow",
+      "name": "Overflow and underflow",
+      "blurb": ""
     },
     {
-        "uuid": "7b456eec-5348-45e5-a442-bcdcc48fda61",
-        "slug": "ranges",
-        "name": "Ranges",
-        "blurb": ""
+      "uuid": "7b456eec-5348-45e5-a442-bcdcc48fda61",
+      "slug": "ranges",
+      "name": "Ranges",
+      "blurb": ""
     },
     {
-        "uuid": "e06b4e87-58b2-4dd2-88cd-60f4178ebd54",
-        "slug": "rc",
-        "name": "Rc",
-        "blurb": ""
+      "uuid": "e06b4e87-58b2-4dd2-88cd-60f4178ebd54",
+      "slug": "rc",
+      "name": "Rc",
+      "blurb": ""
     },
     {
-        "uuid": "3e01401e-1627-4423-aa8b-f9cf52c4adaa",
-        "slug": "references",
-        "name": "References",
-        "blurb": ""
+      "uuid": "3e01401e-1627-4423-aa8b-f9cf52c4adaa",
+      "slug": "references",
+      "name": "References",
+      "blurb": ""
     },
     {
-        "uuid": "5a1896c8-b479-4bc4-89e7-a74d34056bde",
-        "slug": "result",
-        "name": "Result",
-        "blurb": ""
+      "uuid": "5a1896c8-b479-4bc4-89e7-a74d34056bde",
+      "slug": "result",
+      "name": "Result",
+      "blurb": ""
     },
     {
-        "uuid": "5173a1e4-5909-4dd3-a348-1750c096f1de",
-        "slug": "rwlock",
-        "name": "RwLock",
-        "blurb": ""
+      "uuid": "5173a1e4-5909-4dd3-a348-1750c096f1de",
+      "slug": "rwlock",
+      "name": "RwLock",
+      "blurb": ""
     },
     {
-        "uuid": "4ce100e4-8ead-4d9e-b6e2-76cfd4c376f0",
-        "slug": "scopes-and-expressions",
-        "name": "Scopes and expressions",
-        "blurb": ""
+      "uuid": "4ce100e4-8ead-4d9e-b6e2-76cfd4c376f0",
+      "slug": "scopes-and-expressions",
+      "name": "Scopes and expressions",
+      "blurb": ""
     },
     {
-        "uuid": "d844d9b8-47e2-40e8-ab12-47a0a3565882",
-        "slug": "shadowing",
-        "name": "Shadowing",
-        "blurb": ""
+      "uuid": "d844d9b8-47e2-40e8-ab12-47a0a3565882",
+      "slug": "shadowing",
+      "name": "Shadowing",
+      "blurb": ""
     },
     {
-        "uuid": "7e826a22-45ed-4847-8de9-594bc57daa65",
-        "slug": "slices",
-        "name": "Slices",
-        "blurb": ""
+      "uuid": "7e826a22-45ed-4847-8de9-594bc57daa65",
+      "slug": "slices",
+      "name": "Slices",
+      "blurb": ""
     },
     {
-        "uuid": "ac37efdf-a1c5-4526-bd7a-fe1c4cba1656",
-        "slug": "static-lifetime",
-        "name": "Static lifetime",
-        "blurb": ""
+      "uuid": "ac37efdf-a1c5-4526-bd7a-fe1c4cba1656",
+      "slug": "static-lifetime",
+      "name": "Static lifetime",
+      "blurb": ""
     },
     {
-        "uuid": "07a32f06-1268-4f17-abbe-7b9c7fcc7995",
-        "slug": "std-thread",
-        "name": "std::thread",
-        "blurb": ""
+      "uuid": "07a32f06-1268-4f17-abbe-7b9c7fcc7995",
+      "slug": "std-thread",
+      "name": "std::thread",
+      "blurb": ""
     },
     {
-        "uuid": "477a5b7b-a475-4a24-9080-45779d67c9de",
-        "slug": "total-ordering",
-        "name": "Total ordering",
-        "blurb": ""
+      "uuid": "477a5b7b-a475-4a24-9080-45779d67c9de",
+      "slug": "total-ordering",
+      "name": "Total ordering",
+      "blurb": ""
     },
     {
-        "uuid": "aadd1449-3ab8-425e-bce0-1ce00c9c9351",
-        "slug": "typedefs",
-        "name": "Typedefs",
-        "blurb": ""
+      "uuid": "aadd1449-3ab8-425e-bce0-1ce00c9c9351",
+      "slug": "typedefs",
+      "name": "Typedefs",
+      "blurb": ""
     },
     {
-        "uuid": "ba077ed4-ba53-480d-8e31-92b445f7e921",
-        "slug": "unsafe",
-        "name": "Unsafe",
-        "blurb": ""
+      "uuid": "ba077ed4-ba53-480d-8e31-92b445f7e921",
+      "slug": "unsafe",
+      "name": "Unsafe",
+      "blurb": ""
     },
     {
-        "uuid": "b7906dd5-e20b-49ac-ae69-6bad48bce6f2",
-        "slug": "use",
-        "name": "Use",
-        "blurb": ""
+      "uuid": "b7906dd5-e20b-49ac-ae69-6bad48bce6f2",
+      "slug": "use",
+      "name": "Use",
+      "blurb": ""
     },
     {
-        "uuid": "06f7ac1c-af67-461c-a9d9-05fa75e40966",
-        "slug": "variable-assignment",
-        "name": "Variable assignment",
-        "blurb": ""
+      "uuid": "06f7ac1c-af67-461c-a9d9-05fa75e40966",
+      "slug": "variable-assignment",
+      "name": "Variable assignment",
+      "blurb": ""
     },
     {
-        "uuid": "2ce37dbc-f8d7-4bb6-aa02-4bf77813fd55",
-        "slug": "visibility",
-        "name": "Visibility",
-        "blurb": ""
+      "uuid": "2ce37dbc-f8d7-4bb6-aa02-4bf77813fd55",
+      "slug": "visibility",
+      "name": "Visibility",
+      "blurb": ""
     },
     {
       "uuid": "37e85710-3e1d-40f4-aed9-72f43e8a2fcd",
